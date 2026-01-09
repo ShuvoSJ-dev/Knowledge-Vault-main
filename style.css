@@ -135,3 +135,58 @@
   margin: auto;
   margin-bottom: 20px;
 }
+
+.second-brain {
+  padding: 80px 0;
+}
+
+.brain-content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.brain-text .label {
+  color: #30B868;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.brain-text ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.brain-text li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #001931;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links i {
+  gap: 40px;
+  cursor: pointer;
+}
+
+.footer p {
+  text-align: center;
+  font-size:  20px;
+}
+
+.footer .copyright {
+  text-align: center;
+  font-size: 16px;
+}
