@@ -209,6 +209,37 @@
   margin-bottom: 10px;
 }
 
+.early-access {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.early-box {
+    max-width: 700;
+    background: #f7f6f2;
+    padding: 80px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.earlyaccess-content h2{
+    font-size: 40px;
+    color: #001931;
+}
+
+.earlyaccess-content p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.small-text {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #627382;
+}
+
 .footer {
   background: #001931;
   color: #fff;
@@ -224,6 +255,10 @@
 .social-links i {
   gap: 40px;
   cursor: pointer;
+}
+
+.social-links :hover{
+    color: #3a8f5b;
 }
 
 hr {
