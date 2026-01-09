@@ -29,6 +29,23 @@
 .btn.primary{
     background-color: #30B868;
     color: #fff;
+    font-size: 16px;
+}
+
+.btn.primary:hover {
+  background: #2f7349;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;                  
+}
+
+.btn.outline:hover {
+  background: #ffffffa5;
+  color: #000;
 }
 
 .navbar {
@@ -83,7 +100,7 @@
 }
 
 .hero h1 {
-  font-size: 48px;
+  font-size: 58px;
   margin: 20px 0;
 }
 
@@ -92,7 +109,7 @@
 }
 
 .hero p {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 30px;
 }
 
@@ -107,23 +124,38 @@
   text-align: center;
 }
 
+.note-titel{
+    font-size: 48px;
+    color: #001931;
+}
+
 .section-subtitle {
+    font-size: 16px;
   margin: 15px 0 50px;
   color: #627382;
 }
 
 .notes-cards {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .note-card {
   background: #fff;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+.note-card h3{
+    font-size: 24px;
+    color: #001931;
+}
+
+.note-card p{
+    font-size: 16px;
+    color: #627382;
+}
 .note-card .icon {
   width: 50px;
   height: 50px;
@@ -149,12 +181,25 @@
 .brain-text .label {
   color: #30B868;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.brain-text h2{
+    font-size: 48px;
+    color: #001931;
+}
+
+.brain-text p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #627382;
 }
 
 .brain-text ul {
   margin-top: 20px;
   list-style: none;
+  font-size: 16px;
+  color: #001931;
 }
 
 .brain-text li {
@@ -179,6 +224,13 @@
 .social-links i {
   gap: 40px;
   cursor: pointer;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: rgba(255,255,255,0.2);
+  margin: 30px 0;
 }
 
 .footer p {
